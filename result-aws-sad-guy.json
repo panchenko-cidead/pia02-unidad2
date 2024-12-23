@@ -1,0 +1,309 @@
+{
+    "Labels": [
+        {
+            "Name": "Head",
+            "Confidence": 99.99921417236328,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        },
+        {
+            "Name": "Person",
+            "Confidence": 99.99921417236328,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.8684715628623962,
+                        "Height": 0.9967851638793945,
+                        "Left": 0.1315281093120575,
+                        "Top": 0.002015228383243084
+                    },
+                    "Confidence": 99.56448364257812
+                }
+            ],
+            "Parents": [],
+            "Aliases": [
+                {
+                    "Name": "Human"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        },
+        {
+            "Name": "Face",
+            "Confidence": 99.99910736083984,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Head"
+                },
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        },
+        {
+            "Name": "Happy",
+            "Confidence": 99.77516174316406,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Face"
+                },
+                {
+                    "Name": "Head"
+                },
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Expressions and Emotions"
+                }
+            ]
+        },
+        {
+            "Name": "Adult",
+            "Confidence": 99.56448364257812,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.8684715628623962,
+                        "Height": 0.9967851638793945,
+                        "Left": 0.1315281093120575,
+                        "Top": 0.002015228383243084
+                    },
+                    "Confidence": 99.56448364257812
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        },
+        {
+            "Name": "Male",
+            "Confidence": 99.56448364257812,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.8684715628623962,
+                        "Height": 0.9967851638793945,
+                        "Left": 0.1315281093120575,
+                        "Top": 0.002015228383243084
+                    },
+                    "Confidence": 99.56448364257812
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        },
+        {
+            "Name": "Man",
+            "Confidence": 99.56448364257812,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.8684715628623962,
+                        "Height": 0.9967851638793945,
+                        "Left": 0.1315281093120575,
+                        "Top": 0.002015228383243084
+                    },
+                    "Confidence": 99.56448364257812
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Adult"
+                },
+                {
+                    "Name": "Male"
+                },
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        },
+        {
+            "Name": "Laughing",
+            "Confidence": 98.84040069580078,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Face"
+                },
+                {
+                    "Name": "Happy"
+                },
+                {
+                    "Name": "Head"
+                },
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [
+                {
+                    "Name": "Laugh"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Expressions and Emotions"
+                }
+            ]
+        },
+        {
+            "Name": "Smile",
+            "Confidence": 98.83649444580078,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Face"
+                },
+                {
+                    "Name": "Happy"
+                },
+                {
+                    "Name": "Head"
+                },
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Expressions and Emotions"
+                }
+            ]
+        },
+        {
+            "Name": "Clothing",
+            "Confidence": 96.16650390625,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [
+                {
+                    "Name": "Apparel"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Apparel and Accessories"
+                }
+            ]
+        },
+        {
+            "Name": "Shirt",
+            "Confidence": 96.16650390625,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.8282394409179688,
+                        "Height": 0.551374077796936,
+                        "Left": 0.1716861128807068,
+                        "Top": 0.44586557149887085
+                    },
+                    "Confidence": 96.16650390625
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Clothing"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Apparel and Accessories"
+                }
+            ]
+        },
+        {
+            "Name": "Photography",
+            "Confidence": 57.05635452270508,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [
+                {
+                    "Name": "Photo"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Hobbies and Interests"
+                }
+            ]
+        },
+        {
+            "Name": "Portrait",
+            "Confidence": 57.05635452270508,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Face"
+                },
+                {
+                    "Name": "Head"
+                },
+                {
+                    "Name": "Person"
+                },
+                {
+                    "Name": "Photography"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Hobbies and Interests"
+                }
+            ]
+        }
+    ],
+    "LabelModelVersion": "3.0"
+}
